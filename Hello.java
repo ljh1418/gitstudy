@@ -4,8 +4,10 @@ public class Hello {
 
 	public static void main(String[] args) {
 		hello();
-		helloName("이준호");
-		helloName("캉테");
+		helloName("leejunho");
+		helloName("kante");
+		soccer("BEST");
+		
 	}
 	public static void hello() {
 		System.out.println("Hello~");
@@ -14,6 +16,9 @@ public class Hello {
 	
 	public static void helloName(String name) {
 		System.out.println("Hello" + name);
+	}
+	public static void soccer(String name) {
+		System.out.println("chelsea" + name);
 	}
 
 }
